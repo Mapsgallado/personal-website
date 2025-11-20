@@ -1,1 +1,16 @@
-<div id="hero">Hero content</div>
+---
+import Button from "../components/Button.astro";
+---
+
+<div id="hero">
+    <Button type="button" classes=" btn-primary" >Button1</Button>
+    Hero content
+    <a href="https://google.com">
+    <Button classes=" btn-danger" >
+        Visit Google
+    </Button>
+    </a>
+    <div class="p-4 bg-primary d-inline" >Hie</div>
+    <div class="p-4 bg-danger">Hello</div> 
+    <div class="p-4 bg-primary">Hie</div>
+</div>
